@@ -1041,10 +1041,10 @@ Standard 1x4 header, and screw terminal variations</description>
 <text x="134.366" y="9.398" size="1.778" layer="94">(C)2020 SuperHouse Automation Pty Ltd</text>
 <text x="134.366" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: www.tapr.org/ohl</text>
 <text x="197.866" y="14.478" size="1.778" layer="94">www.superhouse.tv/fl</text>
-<text x="68.58" y="124.46" size="5.08" layer="94" ratio="12">1</text>
-<text x="91.44" y="124.46" size="5.08" layer="94" ratio="12">2</text>
-<text x="114.3" y="124.46" size="5.08" layer="94" ratio="12">3</text>
-<text x="137.16" y="124.46" size="5.08" layer="94" ratio="12">4</text>
+<text x="68.58" y="124.46" size="5.08" layer="94" ratio="12">0</text>
+<text x="91.44" y="124.46" size="5.08" layer="94" ratio="12">1</text>
+<text x="114.3" y="124.46" size="5.08" layer="94" ratio="12">2</text>
+<text x="137.16" y="124.46" size="5.08" layer="94" ratio="12">3</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="132.08" y1="12.7" x2="243.84" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="165.1" y1="12.7" x2="195.58" y2="17.78" columns="8" rows="5" layer="94"/>
@@ -1133,7 +1133,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D0" class="0">
+<net name="FB0" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
@@ -1142,7 +1142,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="76.2" y="78.74" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="SIG0" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
@@ -1153,7 +1153,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="76.2" y="86.36" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D2" class="0">
+<net name="FB1" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="160.02" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
@@ -1162,7 +1162,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="99.06" y="76.2" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D4" class="0">
+<net name="FB2" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
 <wire x1="160.02" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
@@ -1171,7 +1171,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="121.92" y="73.66" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D6" class="0">
+<net name="FB3" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="7"/>
 <wire x1="160.02" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
@@ -1180,7 +1180,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="144.78" y="71.12" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D3" class="0">
+<net name="SIG1" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="175.26" y1="76.2" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
@@ -1191,7 +1191,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="99.06" y="88.9" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D5" class="0">
+<net name="SIG2" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="6"/>
 <wire x1="175.26" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
@@ -1202,7 +1202,7 @@ Standard 1x4 header, and screw terminal variations</description>
 <label x="121.92" y="91.44" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="SIG3" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="8"/>
 <wire x1="175.26" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>

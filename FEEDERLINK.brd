@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTgwOTI2MTUwOTQ2NTA2" f3durn="urn:adsk.wipprod:dm.lineage:QDbJOjaCQIiw4yWXuLCKeQ" pcbguid="374eda25-35df-4a59-99bf-fb84bf2e6657" lastpulledtime="" lastsyncedchangeguid="9ba0060d-c17b-e3b2-e533-83580c7e3127"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTgwOTI2MTUwOTQ2NTA2" f3durn="urn:adsk.wipprod:dm.lineage:QDbJOjaCQIiw4yWXuLCKeQ" pcbguid="374eda25-35df-4a59-99bf-fb84bf2e6657" lastpulledtime="" lastsyncedchangeguid="e12e62dd-e39d-5aaa-7541-f88833778ceb"/>
 <plain>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="3" y1="0" x2="51" y2="0" width="0" layer="20"/>
@@ -230,10 +230,10 @@ House</text>
 <wire x1="40.702" y1="8.25" x2="39.94" y2="7.742" width="0.3048" layer="21"/>
 <wire x1="39.94" y1="7.742" x2="40.702" y2="7.996" width="0.3048" layer="21"/>
 <wire x1="40.702" y1="7.996" x2="41.21" y2="7.996" width="0.3048" layer="21"/>
-<text x="5.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">1</text>
-<text x="19.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">2</text>
-<text x="33.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">3</text>
-<text x="47.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">4</text>
+<text x="5.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">0</text>
+<text x="19.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">1</text>
+<text x="33.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">2</text>
+<text x="47.286" y="8.366" size="1.6764" layer="21" font="vector" ratio="18" rot="SR0">3</text>
 </plain>
 <libraries>
 <library name="SuperHouse-Connectors" urn="urn:adsk.eagle:library:11765989">
@@ -564,32 +564,32 @@ These rules have been set to have limits that are safe for most board fabs, whil
 <contactref element="J4" pad="1"/>
 <contactref element="J5" pad="10"/>
 </signal>
-<signal name="D0">
+<signal name="FB0">
 <contactref element="J5" pad="1"/>
 <contactref element="J1" pad="4"/>
 <wire x1="14.35" y1="7.27" x2="9.62" y2="12" width="0.4064" layer="16"/>
 <wire x1="21.92" y1="7.27" x2="14.35" y2="7.27" width="0.4064" layer="16"/>
 </signal>
-<signal name="D1">
+<signal name="SIG0">
 <contactref element="J5" pad="2"/>
 <contactref element="J1" pad="3"/>
 <wire x1="14.35" y1="4.73" x2="7.08" y2="12" width="0.4064" layer="16"/>
 <wire x1="21.92" y1="4.73" x2="14.35" y2="4.73" width="0.4064" layer="16"/>
 </signal>
-<signal name="D2">
+<signal name="FB1">
 <contactref element="J5" pad="3"/>
 <contactref element="J2" pad="4"/>
 <wire x1="24.46" y1="7.27" x2="24.46" y2="11.16" width="0.4064" layer="16"/>
 <wire x1="24.46" y1="11.16" x2="23.62" y2="12" width="0.4064" layer="16"/>
 </signal>
-<signal name="D4">
+<signal name="FB2">
 <contactref element="J5" pad="5"/>
 <contactref element="J3" pad="4"/>
 <wire x1="37.62" y1="12" x2="35.62" y2="10" width="0.4064" layer="1"/>
 <wire x1="29.73" y1="10" x2="27" y2="7.27" width="0.4064" layer="1"/>
 <wire x1="35.62" y1="10" x2="29.73" y2="10" width="0.4064" layer="1"/>
 </signal>
-<signal name="D6">
+<signal name="FB3">
 <contactref element="J5" pad="7"/>
 <contactref element="J4" pad="4"/>
 <wire x1="35" y1="6" x2="39" y2="10" width="0.4064" layer="1"/>
@@ -598,7 +598,7 @@ These rules have been set to have limits that are safe for most board fabs, whil
 <wire x1="49.62" y1="10" x2="51.62" y2="12" width="0.4064" layer="1"/>
 <wire x1="39" y1="10" x2="49.62" y2="10" width="0.4064" layer="1"/>
 </signal>
-<signal name="D3">
+<signal name="SIG1">
 <contactref element="J5" pad="4"/>
 <contactref element="J2" pad="3"/>
 <wire x1="24.46" y1="4.73" x2="23.19" y2="6" width="0.4064" layer="1"/>
@@ -607,7 +607,7 @@ These rules have been set to have limits that are safe for most board fabs, whil
 <wire x1="20" y1="7" x2="20" y2="10.92" width="0.4064" layer="1"/>
 <wire x1="20" y1="10.92" x2="21.08" y2="12" width="0.4064" layer="1"/>
 </signal>
-<signal name="D5">
+<signal name="SIG2">
 <contactref element="J5" pad="6"/>
 <contactref element="J3" pad="3"/>
 <wire x1="33.08" y1="10" x2="35.08" y2="12" width="0.4064" layer="16"/>
@@ -616,7 +616,7 @@ These rules have been set to have limits that are safe for most board fabs, whil
 <wire x1="25.7" y1="8.7" x2="27" y2="10" width="0.4064" layer="16"/>
 <wire x1="25.7" y1="6.03" x2="25.7" y2="8.7" width="0.4064" layer="16"/>
 </signal>
-<signal name="D7">
+<signal name="SIG3">
 <contactref element="J5" pad="8"/>
 <contactref element="J4" pad="3"/>
 <wire x1="29.54" y1="4.73" x2="31.27" y2="3" width="0.4064" layer="16"/>
