@@ -7,6 +7,8 @@ Connects to the bottom of 4 x MGRL0816 pick and place feeders to provide
 a single connection for a 10-way IDC cable. Reduces the overall cabling
 to make the machine neater.
 
+![PCB render](FEEDERLINK8-v1_0-oblique-render.jpg)
+
 Included are versions with different spacings to suit feeders for:
 
  * 8mm tape
